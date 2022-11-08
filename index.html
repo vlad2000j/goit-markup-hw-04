@@ -24,30 +24,48 @@
         </ul>
       </nav>
       <ul class="connection-nav list">
-        <li class="mailtel-item"><a href="mailto:info@devstudio.com" class="svg-header"><svg class="header-icon"
+        <!-- <li class="mailtel-item"><a href="mailto:info@devstudio.com" class="svg-header"><svg class="header-icon"
               width="16" height="12">
-              <use href="./images/icons-mailtel.svg#icon-envelope"></use>
+              <use href="./images/icons-mailtel.svg#icon-envelope" class="use"></use>
             </svg>info@devstudio.com</a></li>
         <li class="mailtel-item"><a href="tel:+380961111111" class="svg-header"><svg class="header-icon" width="10"
               height="16">
               <use href="./images/icons-mailtel.svg#icon-smartphone"></use>
-            </svg>+38 096 111 11 11</a></li>
+            </svg>+38 096 111 11 11</a></li> -->
+        <li class="mailtel-item"> 
+          <div class="center">
+          <svg class="header-icon" width="16" height="12"  >
+          <use href="./images/icons-mailtel.svg#icon-envelope"></use>
+          </svg>
+          </div>
+          <a href="mailto:info@devstudio.com" class="svg-header">info@devstudio.com</a>
+        </li>
+
+        <li class="mailtel-item">
+          <div class="center">
+          <svg class="header-icon" width="10" height="16">
+          <use href="./images/icons-mailtel.svg#icon-smartphone" class="svg-header"></use>
+          </svg>
+          </div>
+          <a href="tel:+380961111111" >+38 096 111 11 11</a></li>
       </ul>
     </div>
   </header>
   <main>
-    <section class="hero">
-      <h1 class="hero-title">
-        <pre class="no-style"> Ефективні рішення для 
+    <div class="hero-limitation">
+      <section class="hero">
+        <h1 class="hero-title">
+          <pre class="no-style"> Ефективні рішення для 
 вашого бізнесу</pre>
-      </h1>
-      <button type="button" class="button">Замовити послугу</button>
-    </section>
+        </h1>
+        <button type="button" class="button">Замовити послугу</button>
+      </section>
+    </div>
     <section class="section first">
       <div class="container">
         <h2 class="visually-hidden">Особливості</h2>
         <ul class="list-one">
-          <li>
+          <li class="column">
             <div class="box-svg">
               <a href="" class="box-link">
                 <svg class="box-icon" width="70" height="70">
@@ -61,7 +79,7 @@
               формування позиції.
             </p>
           </li>
-          <li>
+          <li class="column">
             <div class="box-svg">
               <a href="" class="box-link">
                 <svg class="box-icon" width="70" height="70">
@@ -75,7 +93,7 @@
               тягне у себе.
             </p>
           </li>
-          <li>
+          <li class="column">
             <div class="box-svg">
               <a href="" class="box-link">
                 <svg class="box-icon" width="70" height="70">
@@ -88,7 +106,7 @@
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li>
+          <li class="column">
             <div class="box-svg">
               <a href="" class="box-link">
                 <svg class="box-icon" width="70" height="70">
@@ -224,7 +242,7 @@
     </section>
     <section class="clients">
       <div class="container">
-        <h1 class="section-title clients-title">Постійні клієнти</h1>
+        <h2 class="section-title clients-title">Постійні клієнти</h2>
         <ul class="clients-list">
           <li class="clients-item"><a href="" class="clients-link"><svg class="clients-icons" width="106" height="60">
                 <use href="./images/icons-client.svg#icon-Logo-1"></use>
