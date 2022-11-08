@@ -46,12 +46,8 @@ body {
   padding-bottom: 25px;
 }
 
-/* .svg-header:hover .header-icon {
- color: #2196f3;
-} */
-
 .header-icon {
-  fill:currentColor;
+  fill: currentColor;
   margin-right: 10px;
 }
 
@@ -59,16 +55,17 @@ body {
   display: flex;
 }
 
+.svg-header {
+  display: flex;
+  align-items: center;
+}
 
-.mailtel-item:hover, 
-.mailtel-item a:hover {
+.svg-header:hover {
   color: #2196f3;
 }
 
-.mailtel-item:focus,
-.mailtel-item a:focus {
-  color: #2196f3;
-}
+
+
 
 /* logo */
 
@@ -101,6 +98,7 @@ body {
 }
 
 /* site-nav */
+
 .link {
   font-weight: 500;
   font-size: 14px;
@@ -151,7 +149,6 @@ body {
   line-height: 1.2;
 }
 
-
 /* hero */
 
 .hero {
@@ -165,7 +162,6 @@ body {
     url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  
 }
 
 .hero-title {
@@ -364,7 +360,6 @@ pre {
   width: 270px;
 }
 
-
 .works {
   margin-bottom: 50px;
 }
@@ -424,7 +419,6 @@ pre {
 
 .social-icon {
   fill: #afb1b8;
- 
 }
 
 .svg-logo:hover .social-icon {
@@ -462,6 +456,7 @@ pre {
 }
 
 /* clients-section ()*/
+
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -479,7 +474,6 @@ pre {
   height: 92px;
   margin-right: 30px;
 }
-
 
 .clients-link {
   width: 100%;
@@ -508,6 +502,7 @@ pre {
 }
 
 /* footer */
+
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
@@ -521,6 +516,7 @@ pre {
   line-height: 1.6;
   color: var(--main-color);
   display: inline-block;
+  margin-bottom: 20px;
 }
 
 .logo-secondary {
@@ -563,18 +559,13 @@ pre {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-head {
-  display: flex;
-  display: inline-block;
-  margin-bottom: 20px;
-}
-
-.footer-info {
-  display: flex;
-}
-
 .footer-icon {
   fill: #ffffff;
+}
+
+.footer-icons {
+  display: flex;
+  list-style: none;
 }
 
 .svg-footer {
@@ -588,14 +579,13 @@ pre {
   text-transform: uppercase;
   color: #ffffff;
   display: inline-block;
-  margin-left: 126px;
-  margin-top: 15px;
   height: 16px;
+  margin-bottom: 20px;
 }
 
-.footer-icons {
-  margin-top: 0;
+.footer-icon-list {
   margin-left: 70px;
+  padding-top: 16px;
 }
 
 /* Блоки */
@@ -606,6 +596,15 @@ pre {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.footer-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
 }
 
 .hero-limitation {
